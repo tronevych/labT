@@ -116,7 +116,7 @@ public class Main {
         if (weightCandiesPrice > boxCandiesPrice){
             System.out.println(" buyers are more likely to choose candy by weight than candy in boxes");
         }else {
-            System.out.println("Customers like weight more\n" +
+            System.out.println("Customers like weight more" +
                     "because you can choose the size of the purchase");
         }
        // Show in output line
@@ -129,13 +129,12 @@ public class Main {
         /*
             ------- Compilation -------
        The price of all candies 2835 UAH
-   Most expensive candies is - WeightCandies{name='ZoryaneSayvo', rate=8.0, weightPrice=120}
-   Most cheap candies is - BoxCandies{name='Korivka', boxPrice=30}
-   Find average price of all bought candies 283.5
-   Customers like weight more
-   because you can choose the size of the purchase
-   In shop available 10 types of candies
-   The full price of which 2835 UAH
+     Most expensive candies is - WeightCandies{name='ZoryaneSayvo', weight=8.0, weightPrice=120}
+     Most cheap candies is - BoxCandies{name='Korivka', boxPrice=30}
+     Find average price of all bought candies 283.5
+     Customers like weight more because you can choose the size of the purchase
+     In shop available 10 types of candies
+     The full price of which 2835 UAH
 
         */
     }
