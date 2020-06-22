@@ -54,7 +54,11 @@ import com.company.ITrade;
 public class BoxCandies implements ITrade {
 
     private String name;
-    private int boxPrice; // Price per box
+    private int boxPrice;
+
+
+   // name: name of candies
+   // boxPrice: cost a box of candies.
 
     public BoxCandies() {
     }

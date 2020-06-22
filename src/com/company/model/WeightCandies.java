@@ -52,9 +52,13 @@ import com.company.ITrade;
 
 public class WeightCandies implements ITrade {
 
-    private String name;     // The name of the candy
+    private String name;
     private double weight;
     private int weightPrice;
+
+    //name: name of candies
+    //weight:  weight of candies was a purchase
+    //weightPrice: cost a 1kh of candies
 
     // create Method Select None Constructor  for class WeightCandies
     public WeightCandies() {
@@ -68,7 +72,7 @@ public class WeightCandies implements ITrade {
         this.weightPrice = weightPrice;
     }
 
-    //// create method Getters and Setters for all elements in WeightCandies
+    // create method Getters and Setters for all elements in WeightCandies
     public String getName() {
         return name;
     }
@@ -98,7 +102,7 @@ public class WeightCandies implements ITrade {
     public String toString() {
         return "WeightCandies{" +
                 "name='" + name + '\'' +
-                ", rate=" + weight +
+                ", weight=" + weight +
                 ", weightPrice=" + weightPrice +
                 '}';
     }
